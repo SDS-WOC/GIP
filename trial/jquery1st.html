@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>
+Group Information Page
+</title>
+<link rel="stylesheet" href="main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("img").click(function(){
+$(".newpage").slideDown(2000);
+$(".c").hide();
+$(".b").hide();
+$(".a").hide();
+});
+});
+
+</script>
+<style>
+.newpage{
+background:#E52246;
+height:100%;
+width:100%;
+opacity: .5;
+
+
+display: none;
+}
+</style>
+</head>
+<body>
+<div class="newpage">Welcome to next page</div>
+<div class="a">
+GIP</div>
+<div class="b">
+<font face="Copperplate Gothic Light">Groups Information Page</font></div>
+<div class="c">
+<p><font face="Magneto">List of Groups!</font></p>
+<img src="keyboard_arrow_down_grey_192x192.png" width="60%" height="15%">
+</div>
+
+</body>
+</html>

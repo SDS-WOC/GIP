@@ -1,0 +1,36 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#33ccff), to(#ff99cc)) fixed;
+}
+.a{
+margin-top: 170px;
+font-size: 45px;
+color: #fbc223;
+letter-spacing: .4em;
+ text-align: center;
+}
+.b{
+text-align: center;
+font-size: 30px;
+padding-right: 30px;
+
+}
+.c{
+position: absolute; 
+bottom : 0;
+text-align: center;
+color: #020732;
+margin-left: 42%;
+margin-right: 42%;
+cursor: pointer;
+}
+p{
+margin-bottom:-20px;
+font-size: 24px;
+}
+.newpage{
+background:#E52246;
+height:100%;
+width:100%;
+opacity: .5;
+display: none;
+}
