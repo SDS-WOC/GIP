@@ -1,0 +1,172 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.a{
+margin-top: 50px;
+font-size: 45px;
+color: #fbc223;
+letter-spacing: .4em;
+ text-align: center;
+  font-weight: bold;
+}
+.b{
+text-align: center;
+font-size: 30px;
+padding-right: 30px;
+  font-weight: bold;
+
+}
+.c{
+position: absolute; 
+bottom : 0px;
+text-align: center;
+color: #000000;
+margin-left: 42%;
+margin-right: 42%;
+  font-weight: bold;
+}
+.d{
+cursor: pointer;
+}
+
+
+.symbol1{
+margin-left: 90%;
+margin-top: -8%;
+}
+.background::after {
+  content: "";
+  background-image: url("iitr.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.newpage{
+display: none;
+}
+.newpage::after {
+  content: "";
+  background-image: url("bg-body.jpg");
+background-repeat: repeat;
+ z-index: -1;  
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+position: absolute; 
+}
+
+.lg{
+font-family: 'Aharoni';
+	color: #070842;
+	margin-bottom: -20px;
+	font-size: 30px;
+cursor: pointer;
+}
+
+.a1{
+font-family: 'CG Times';
+font-size: 38px;
+margin-left: 20px;
+margin-top: 10px;
+}
+.symbola1{
+margin-left: 90%;
+margin-top: -3%;
+}
+
+.vertical {
+    width: 300px;
+margin-left: 180px;
+margin-top: 10px; 
+float: left;
+}
+
+.vertical p {
+    background-color: #f78117; 
+    color: black; 
+    display: block; 
+    padding: 22px;
+font-size: 30px;
+word-spacing: 110px;
+    
+}
+.vertical p:hover {
+    background-color: #ccc; 
+}
+.cultural {
+width: 600px;
+margin-left: 480px;
+float: left;
+position: absolute;
+display: none;
+}
+
+.cultural td:hover {
+    background-color: #ccc; 
+}
+ 
+
+
+.technical {
+width: 600px;
+margin-left: 480px;
+float: left;
+position: absolute;
+display: none;
+}
+
+.technical td:hover {
+    background-color: #ccc; 
+}
+.magazine {
+width: 600px;
+margin-left: 480px;
+float: left;
+position: absolute;
+display: none;
+}
+
+.magazine td:hover {
+    background-color: #ccc; 
+}
+.others {
+width: 600px;
+margin-left: 480px;
+float: left;
+position: absolute;
+display: none;
+}
+
+.others td:hover {
+    background-color: #ccc; 
+}
+
+table.blueTable {
+  border: 3px solid #fff;
+  background-color: #4574E1;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+box-shadow: 10px 10px #ccc;
+}
+table.blueTable td {
+  border: 1px solid #f78117;
+  padding: 40px 35px;
+font-size: 35px;
+ text-shadow: 2px 2px 8px #f78117;
+font-family: futura-lt-w01-light;
+}
+.am{
+position: absolute;
+bottom: 0px;
+width: 600px;
+}
